@@ -1,6 +1,10 @@
 
 var homeContent 
-= `<h1>Home Page</h1>`;
+= `<div class="home-hero">
+        <h1 id="home-hero-text">ShoeMania</h1>
+    </div>
+
+`;
 
 var aboutContent 
 = `<h1>About Page</h1>`;
