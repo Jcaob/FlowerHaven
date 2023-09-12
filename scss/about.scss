@@ -1,0 +1,22 @@
+.about{
+    display: flex;
+    background-color: #181818;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+
+    .about-img{
+        
+        width: 35%;
+
+    }
+
+    .about-des{
+        color: #FFFFFF;
+        text-align: center;
+        font-family: AlbertLight;
+        font-size: 20px;
+        width: 40%;
+    }
+}
