@@ -1,8 +1,28 @@
 
 var homeContent 
 = `<div class="home-hero">
-        <h1 id="home-hero-text">ShoeMania</h1>
+        <h1 id="home-hero-text">Shoes Made to Last</h1>
     </div>
+
+    <section class="display">
+        <div class="item-card">
+            <img src="./assets/imgs/img1.jpg" class="item-img">
+            <p class="item-name">Crimson Train</p>
+            <p class="item-price">180.00$</p>
+        </div>
+        <div class="item-card">
+            <img src="./assets/imgs/img2.jpg" class="item-img">
+            <p class="item-name">Speed Flex 22</p>
+            <p class="item-price">220.00$</p>
+        </div>
+        <div class="item-card">
+            <img src="./assets/imgs/img3.jpg" class="item-img">
+            <p class="item-name">Sport Type R</p>
+            <p class="item-price">100.00$</p>
+        </div>
+    </section>
+
+    <section class="questions"></section>
 
 `;
 

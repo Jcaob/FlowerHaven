@@ -12,15 +12,16 @@ nav {
   display: flex;
   width: 100%;
   height: 50px;
-  background-color: black;
+  background-color: #00D084;
   justify-content: space-between;
   align-items: center;
 }
 
 a {
   text-decoration: none;
-  color: white;
-  margin-left: 40px;
+  color: #181818;
+  margin-right: 40px;
+  font-family: Albertnorm;
 }
 
 a:hover {
@@ -35,7 +36,7 @@ h1 {
 .brand {
   display: flex;
   justify-content: space-evenly;
-  margin-right: 60px;
+  margin-left: 60px;
   align-items: center;
 }
 .brand .logo {
@@ -44,7 +45,8 @@ h1 {
   background-color: red;
 }
 .brand #name {
-  color: white;
+  font-family: Albertbold;
+  color: #181818;
 }
 
 footer {
@@ -52,12 +54,79 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #181818;
 }
 footer #copyright {
   color: white;
   font-size: 15px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home-hero {
+  width: 100%;
+  height: 300px;
+  background-color: #00D084;
+  text-align: left;
+}
+.home-hero #home-hero-text {
+  font-size: 150px;
+  font-family: Albertboldlight;
+  letter-spacing: -6px;
+  position: relative;
+  color: #181818;
+  top: 150px;
+}
+
+.display {
+  background-color: #181818;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.display .item-card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 33%;
+}
+.display .item-card .item-img {
+  height: 350px;
+  width: 100%;
+  background-color: blue;
+}
+.display .item-card .item-name {
+  margin-top: 5px;
+  height: 50px;
+  color: #FFFFFF;
+  font-family: AlbertLight;
+  font-size: 30px;
+  width: 100%;
+}
+.display .item-card .item-price {
+  margin-top: 10px;
+  height: 30px;
+  font-family: AlbertLight;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+@font-face {
+  font-family: Albertnorm;
+  src: url(../assets/fonts/Albert_Sans/static/AlbertSans-Medium.ttf);
+}
+@font-face {
+  font-family: Albertbold;
+  src: url(../assets/fonts/Albert_Sans/static/AlbertSans-Bold.ttf);
+}
+@font-face {
+  font-family: Albertboldlight;
+  src: url(../assets/fonts/Albert_Sans/static/AlbertSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: AlbertLight;
+  src: url(../assets/fonts/Albert_Sans/static/AlbertSans-Regular.ttf);
 }
 
 /*# sourceMappingURL=styles.css.map */
