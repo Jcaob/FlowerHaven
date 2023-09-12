@@ -6,8 +6,6 @@ function initListeners() {
     let butID = e.currentTarget.id;
     addPageContent(butID)
    })
-   
-   
 }
  
 $(document).ready(function () {
